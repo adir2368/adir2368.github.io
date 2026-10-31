@@ -1,5 +1,68 @@
+# robots.txt for Semestero ME (סמסטרו ME) — Technion Academic OS, Degree Planner & GPA Calculator
+# Canonical Origin: https://semestero.me/
+# App Entry Point: https://semestero.me/Semestero-ME/
+
 User-agent: *
 Allow: /
-Allow: /favicon.ico
-Allow: /icon-*.png
-Sitemap: https://adir2368.github.io/sitemap.xml
+
+# OpenAI ChatGPT Search Live Retrieval & Grounding
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Google Search & Google Gemini Grounding
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Bing, Copilot & IndexNow Grounding
+User-agent: Bingbot
+Allow: /
+
+# Perplexity, Claude, Apple Intelligence & DuckDuckGo AI
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# XML Sitemaps
+Sitemap: https://semestero.me/sitemap.xml
+Sitemap: https://semestero.me/Semestero-ME/sitemap.xml
+
+# LLM & Generative Engine Discovery Manifests (llms.txt standard)
+# https://semestero.me/llms.txt
+# https://semestero.me/.well-known/llms.txt
+# https://semestero.me/Semestero-ME/llms.txt
+# https://semestero.me/Semestero-ME/guide.html
